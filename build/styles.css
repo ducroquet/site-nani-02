@@ -1,0 +1,121 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.capa {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./images/capa-02.jpg);
+    background-size: cover;
+    background-position-y: bottom;
+    background-position-x: right;
+}
+
+.capa h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    left: 100px;
+    top: 200px;
+    font-size: 90px;
+    position: absolute;
+    max-width: 300px;
+    height: 400px;
+    line-height: 90px;
+}
+
+.capa h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    left: 100px;
+    top: 440px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.topMenuContainer {
+    position: absolute;
+    top: 10px;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuItem {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.rodapeCapa {
+    background-color: gray;
+    height: 40px;
+}
+
+.foto {
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    margin: 200px auto 0;
+}
+
+.secao {
+    background-color: #e3d2c9;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.secao p {
+    margin: 40px auto;
+    width: 600px;
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+
+.itemContainer {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.metodoItem {
+    width: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.metodoItem p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 24px;
+    font-weight: 200;
+    font-size: 18px;
+    width: unset;
+}
+
+.metodoItem h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.quote {
+    width: 100%;
+
+}
+
+.quote p {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    max-width: 800px;
+    margin: 100px auto 100px;
+}
