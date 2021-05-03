@@ -107,6 +107,10 @@ html, body {
     font-size: 18px;
 }
 
+.secao li {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 .itemContainer {
     display: flex;
