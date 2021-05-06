@@ -4,7 +4,7 @@ html, body {
   }  
 
 .capa {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-image: url(./images/capa-02.jpg);
     background-size: cover;
