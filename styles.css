@@ -109,6 +109,8 @@ html, body {
 
 .secao li {
     font-family: 'Raleway', sans-serif;
+    width: 600px;
+    margin: 0px auto;
 }
 
 
